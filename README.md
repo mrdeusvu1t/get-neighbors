@@ -7,6 +7,8 @@
 >
 > The points resulting from sorting should not be sorted (in arbitrary order).
 
+
 ![](https://github.com/AnzhelikaKravchuk/AutoCode-Tasks-GetNeighborsTask/ToGetNeighborsMethod.jpg)
+
 
 *Topics - structs, arrays, params, equivalence relation.*
