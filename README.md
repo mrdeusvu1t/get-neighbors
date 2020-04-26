@@ -9,4 +9,4 @@
 
 ![Scheme](https://github.com/AnzhelikaKravchuk/AutoCode-Tasks-GetNeighborsTask/blob/master/ToGetNeighborsMethod.jpg)
       
-*Topics - structs, arrays, params, equivalence relation.*
+*Topics - structs, arrays, keyword params, equivalence relation.*
