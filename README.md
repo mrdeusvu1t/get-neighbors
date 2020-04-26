@@ -1,3 +1,5 @@
+## Task description ##
+
 > Implement the GetNeighbors method, which returns from a set of *points* only points that are *h*-neighbors for a *point* with integer coordinates *x* and *y*.
 >
 > The point *neighbor(xNeighbor, yNeighbor)* is *h*-neighbor for the given *point(x, y)* with a range *h* (*h* is an positive integer)
