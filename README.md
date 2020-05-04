@@ -7,6 +7,6 @@
 >
 > The points resulting from sorting should not be sorted (in arbitrary order).      
 
-![Scheme](https://gitlab.com/epam-autocode-tasks/get-neighbors/-/blob/master/ToGetNeighborsMethod.jpg)
+![Scheme](ToGetNeighborsMethod.jpg)
       
 *Topics - structs, arrays, keyword params, equivalence relation.*
