@@ -85,7 +85,7 @@ namespace GetNeighborsTask.Tests
             }
 
             [Test]
-            public void GetNeighbors_Range_Less_Or_Equals_Zero_Throw_ArgumentException()
+            public void GetNeighbors_RangeLessOrEqualsZero_ThrowArgumentException()
             {
                 var point = new Point();
                 int range = -1;
@@ -94,7 +94,7 @@ namespace GetNeighborsTask.Tests
             }
 
             [Test]
-            public void GetNeighbors_Points_Is_Equal_Null_Throw_ArgumentNullException()
+            public void GetNeighbors_PointsIsEqualNull_ThrowArgumentNullException()
             {
                 var point = new Point();
                 int range = 1;
