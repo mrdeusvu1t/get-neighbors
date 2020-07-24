@@ -78,7 +78,7 @@ namespace GetNeighborsTask.Tests
             }
 
             [TestCaseSource(nameof(DataCases))]
-            public void GetNeighborsTests(Point point, int range, List<Point> expected)
+            public void GetNeighborsTests(Point point, int range, Point[] expected)
             {
                 var actual = CartesianCoordinates.GetNeighbors(point, range, this.points);
                 CollectionAssert.AreEquivalent(expected, actual);
