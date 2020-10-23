@@ -1,4 +1,6 @@
-/// <summary>
+namespace GetNeighbors
+{
+    /// <summary>
     /// Represents a point on the coordinate plane.
     /// </summary>
     public readonly struct Point : System.IEquatable<Point>
@@ -54,3 +56,4 @@
             return this.X == other.X && this.Y == other.Y;
         }
     }
+}
