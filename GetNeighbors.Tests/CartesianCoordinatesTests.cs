@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace GetNeighborsTask.Tests
+namespace GetNeighbors.Tests
 {
     [TestFixture] 
     public class CartesianCoordinatesTests
@@ -46,7 +46,7 @@ namespace GetNeighborsTask.Tests
         [Test]
         public void GetNeighbors_RangeLessOrEqualsZero_ThrowArgumentException()
         {
-            var point = new Point();
+            var point = default(Point);
             int range = -1;
             Assert.Throws<ArgumentException>(() => CartesianCoordinates.GetNeighbors(point, range, this.points),
                 message: "Range cannot be less or equals zero.");
@@ -55,7 +55,7 @@ namespace GetNeighborsTask.Tests
         [Test]
         public void GetNeighbors_PointsIsEqualNull_ThrowArgumentNullException()
         {
-            var point = new Point();
+            var point = default(Point);
             int range = 1;
             points = null;
             Assert.Throws<ArgumentNullException>(() => CartesianCoordinates.GetNeighbors(point, range, this.points),
