@@ -48,6 +48,7 @@ namespace GetNeighbors
             }
 
             Point point = (Point)obj;
+            
             return this.Equals(point);
         }
 
