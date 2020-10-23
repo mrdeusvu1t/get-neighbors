@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace GetNeighbors
 {
     /// <summary>
@@ -7,13 +5,14 @@ namespace GetNeighbors
     /// </summary>
     public readonly struct Point
     {
-        public int X { get; }
-        public int Y { get; }
-
         public Point(int x, int y)
         {
             X = x;
             Y = y;
         }
+
+        public int X { get; }
+
+        public int Y { get; }
     }
 }
