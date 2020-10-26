@@ -1,8 +1,16 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNeighbors", "GetNeighbors\GetNeighbors.csproj", "{ED63129C-F58E-4D6B-94E5-49F989F3859A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetNeighbors", "GetNeighbors\GetNeighbors.csproj", "{ED63129C-F58E-4D6B-94E5-49F989F3859A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetNeighbors.Tests", "GetNeighbors.Tests\GetNeighbors.Tests.csproj", "{4A448EF3-6462-458C-8CCF-A1EA7BE1E499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetNeighbors.Tests", "GetNeighbors.Tests\GetNeighbors.Tests.csproj", "{4A448EF3-6462-458C-8CCF-A1EA7BE1E499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88012004-209A-489B-9B6F-31937FDD31CB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +26,11 @@ Global
 		{4A448EF3-6462-458C-8CCF-A1EA7BE1E499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A448EF3-6462-458C-8CCF-A1EA7BE1E499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A448EF3-6462-458C-8CCF-A1EA7BE1E499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C833E9-DC44-43D7-AFE7-9B6269B39D5A}
 	EndGlobalSection
 EndGlobal
