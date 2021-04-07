@@ -1,4 +1,4 @@
-namespace GetNeighbors
+﻿namespace GetNeighbors
 {
     /// <summary>
     /// Represents a point on the coordinate plane.
